@@ -6,21 +6,21 @@
 
 @font-face{
     font-family: 'Shabnam';
-    src: url('./font/Shabnam-Light.eot format') format('eot') , url('./font/Shabnam-Light.woff') format('woff') ,
-     url('./font/Shabnam-Light.woff2') format('woff2');
+    src: url('Shabnam-Light.eot format') format('eot') , url('Shabnam-Light.woff') format('woff') ,
+     url('Shabnam-Light.woff2') format('woff2');
 }
 
 @font-face{
     font-family: 'shabnam-df';
-    src: url('./font/Shabnam-FD.eot') format('eot') , url('./font/Shabnam-FD.woff') format('woff') ,
-     url('./font/Shabnam-FD.woff2') format('woff2');
+    src: url('Shabnam-FD.eot') format('eot') , url('Shabnam-FD.woff') format('woff') ,
+     url('Shabnam-FD.woff2') format('woff2');
 }
 
 
 @font-face{
     font-family: 'shabnam-df-bold';
-    src: url('./font/Shabnam-Bold.eot') format('eot') , url('./font/Shabnam-Bold.woff') format('woff') ,
-     url('./font/Shabnam-Bold.woff2') format('woff2');
+    src: url('Shabnam-Bold.eot') format('eot') , url('Shabnam-Bold.woff') format('woff') ,
+     url('Shabnam-Bold.woff2') format('woff2');
 }
 
 
@@ -75,7 +75,7 @@ body{
 } 
 
 .open-nav{
-    background-image: url('./pic/line.png');   
+    background-image: url('.line.png');   
     background-size: 28px;
     background-color: rgb(253, 183, 19);
     background-repeat: no-repeat;
@@ -101,7 +101,7 @@ body{
 .image-main{
     grid-column: 1/4;
     grid-row: 1/4;  
-    background-image: url("./pic/download.svg");
+    background-image: url("download.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 150px;
@@ -311,7 +311,7 @@ body{
 .back-image{
     grid-column: 1/6;
     grid-row: 1/3;
-    background-image: url('./pic/back.webp');
+    background-image: url('back.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size:contain;
@@ -934,15 +934,15 @@ body{
 }
 
 .left{
-    background-image: url('./pic/left-card.svg');
+    background-image: url('left-card.svg');
 }
 
 .center{
-    background-image: url('./pic/center-card.svg');
+    background-image: url('center-card.svg');
 }
 
 .right{
-    background-image: url('./pic/right-card.svg');
+    background-image: url('right-card.svg');
 }
 
 .new-text{
@@ -980,13 +980,13 @@ body{
 .swip-left{
     grid-column: 1/3;
     grid-row: 1/5;
-    background-image: url('./pic/swip.png');
+    background-image: url('swip.png');
 }
 
 .swip-right{
     grid-column: 3/5;
     grid-row: 1/5;
-    background-image: url('./pic/swip2.png');
+    background-image: url('swip2.png');
 }
 
 .swip{
@@ -1025,7 +1025,7 @@ body{
 .left-qrcod{
     grid-column: 1/2;
     grid-row: 1/4;
-    background-image: url('./pic/qr-code.png');
+    background-image: url('qr-code.png');
     background-repeat: no-repeat;
     background-size: 140px;
     background-position: center;
@@ -1097,7 +1097,7 @@ body{
 .contain-pic-app{
     grid-column: 1/4;
     grid-row: 1/4;
-    background-image: url('./pic/right-app.webp');
+    background-image: url('right-app.webp');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1147,7 +1147,7 @@ body{
 .image-ticket{
     grid-column: 4/7;
     grid-row: 1/3;
-    background-image: url('./pic/ticket-sec.webp');
+    background-image: url('ticket-sec.webp');
     background-position: bottom;
     background-size: 400px;
     background-repeat: no-repeat;
@@ -1303,15 +1303,15 @@ body{
 }
 
 .foot-image-left{
-    background-image: url('./pic/left-foot.webp');
+    background-image: url('left-foot.webp');
 }
 
 .foot-image-center{
-    background-image: url('./pic/center-ffot.webp');
+    background-image: url('center-ffot.webp');
 }
 
 .foot-image-right{
-    background-image: url('./pic/right-foot.webp');
+    background-image: url('right-foot.webp');
 }
 
 .foot1-head{
@@ -1343,7 +1343,7 @@ body{
 .foot-pic{
     grid-column: 9/11;
     grid-row: 2/3;
-    background-image: url('./pic/download.svg');
+    background-image: url('download.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 150px;
@@ -1385,28 +1385,28 @@ body{
 .standard-pic1{
     grid-column: 5/6;
     grid-row: 6/9;
-    background-image: url('./pic/standard1.png');
+    background-image: url('standard1.png');
     right: 100px;
 }
 
 .standard-pic2{
     grid-column: 6/7;
     grid-row: 6/9;
-    background-image: url('./pic/standard2.png');
+    background-image: url('standard2.png');
     right: 80px;
 }
 
 .standard-pic3{
     grid-column: 7/8;
     grid-row: 6/9;
-    background-image: url('./pic/standard3.png');
+    background-image: url('standard3.png');
     right: 60px;
 }
 
 .standard-pic4{
     grid-column: 8/9;
     grid-row: 6/9;
-    background-image: url('./pic/standard4.svg');
+    background-image: url('standard4.svg');
     right: 40px;
 }
     
@@ -1414,14 +1414,14 @@ body{
 .standard-pic5{
     grid-column: 9/10;
     grid-row: 6/9;
-    background-image: url('./pic/standard5.png');
+    background-image: url('standard5.png');
     right: 20px;
 }
 
 .standard-pic6{
     grid-column: 10/11;
     grid-row: 6/9;
-    background-image: url('./pic/standard6.svg');
+    background-image: url('standard6.svg');
 }
 
 .list-foot-haed{
@@ -1601,7 +1601,7 @@ body{
 }
 
 .alibaba-back-side{
-    background-image: url('./pic/alibaba-side.jpg');
+    background-image: url('alibaba-side.jpg');
     grid-column: 1/4;
     grid-row: 1/2;
     background-position: center;
@@ -1803,7 +1803,7 @@ body{
     }
 
     .image-main{
-        background-image: url('./pic/shawl_logotype_black-86af55bd\ \(1\).svg');
+        background-image: url('shawl_logotype_black-86af55bd\ \(1\).svg');
         background-size: 200px;
     }
 
