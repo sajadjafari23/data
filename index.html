@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/45f8fb8839.js" crossorigin="anonymous"></script>
+    <script src="./java.js" type="text/javascript"></script>
+    <title>ali baba</title>
+</head>
+<body>
+    <div class="container" id="big-all">
+        <div id="float-side" class="sidebar">
+            <div class="nav-contain">
+                <button id="close-btn" onclick="closeside()" class="btn-close close"></button>
+                <div class="alibaba-back-side">
+                    
+                </div>
+
+                <details class="list-side ls1">
+                    <summary>بلیط</summary>
+                    <a href="#" class="link-list-side">پرواز داخلی</a>
+                    <a href="#" class="link-list-side">پرواز خارجی</a>
+                    <a href="#" class="link-list-side">قطار</a>
+                    <a href="#" class="link-list-side">اتوبوس</a>
+                </details>
+
+                <details class="list-side ls2">
+                    <summary>اقامت</summary>
+                    <a href="#" class="link-list-side">هتل</a>
+                    <a href="#" class="link-list-side">ویلا و اقامتگاه</a>
+                </details>
+
+                <a class="login-side" href="#">تور</a>
+
+                <details class="list-side ls3">
+                    <summary>بیشتر</summary>
+                    <a href="#" class="link-list-side">مجله علی‌بابا</a>
+                    <a href="#" class="link-list-side">علی‌بابا پلاس</a>
+                    <a href="#" class="link-list-side">بیمه مسافرتی</a>
+                </details>
+            </div>
+        </div>
+        <!-- head -->
+        <header class="head main">
+            <div class="head-container">
+                <nav class="head-org">
+                    <button class="open-nav" onclick="openside()">
+
+                    </button>
+                    <a class="link" href="https://www.alibaba.ir/accommodation" target="_blank">
+                        <div class="image-main">
+                    
+                        </div>
+                    </a>
+
+                    <ul class="top-menu list">
+                        <li class="sup-menu sup1"><a class="link-menu link1" href="#">بلیط<i class="fa-solid fa-caret-down"></i></a>
+                            <div class="container-sup super">
+                                <ul class="zir-nav">
+                                    <li class="sup-zir1 abshari zir1"><a class="link-zir1 link-abshari" href="#">پرواز های داخلی</a></li>
+                                    <li class="sup-zir1 abshari zir2"><a class="link-zir1 link-abshari" href="#">پرواز های خارجی</a></li>
+                                    <li class="sup-zir1 abshari zir3"><a class="link-zir1 link-abshari" href="#">اتوبوس</a></li>
+                                    <li class="sup-zir1 abshari zir4"><a class="link-zir1 link-abshari" href="#">قطار</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sup-menu sup2"><a class="link-menu link2" href="#">اقامت<i class="fa-solid fa-caret-down"></i></a>
+                            <div class="container-sup1 super1">
+                                <ul class="zir-nav1">
+                                    <li class="sup-zir2 abshari"><a class="link-zir2 link-abshari" href="#">هتل</a></li>
+                                    <li class="sup-zir2 abshari"><a class="link-zir2 link-abshari" href="#">ویلا و اقامتگاه</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sup-menu sup3"><a class="link-menu link3" href="#">تور </a></li>
+                        <li class="sup-menu sup4"><a class="link-menu link4" href="#">بیشتر<i class="fa-solid fa-caret-down"></i></a>
+                            <div class="container-sup2">
+                                <ul class="zir-nav2">
+                                    <li class="sup-zir3 abshari"><a class="link-zir3 link-abshari" href="#">علی بابا پلاس</a></li>
+                                    <li class="sup-zir3 abshari"><a class="link-zir3 link-abshari" href="#">مجله علی بابا</a></li>
+                                    <li class="sup-zir3 abshari"><a class="link-zir3 link-abshari" href="#">بیمه مسافرتی</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="left-link">
+                        <p class="suport-text text1-l"><a class="suport-link l-link1" href="#"><i class="fa-regular fa-circle-question"></i>مرکزپشتیبانی آنلاین</a></p>
+                        <p class="suport-text text2-l"><a class="suport-link l-link2" href="#" ><i class="fa-regular fa-compass"></i>سفر های من</a></p>
+                        <p class="suport-text text3-l"><a class="suport-link l-link3" href="#" ><i class="fa-regular fa-user"></i>ورود یا ثبت نام</a></p>
+
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- finish head--!>
+        <!-- main -->
+       <main class="main-work">
+            <div class="main-back-image">
+                <div id="back-iamge-sec" class="back-image">
+                    
+                </div>
+            </div>
+
+            <div class="org-container">
+                <div class="a-card detail1">
+                    <div class="products">
+                        <ul class="products-option">
+                            <div class="main-list">
+                                <div class="pro-icon pi1">
+                                    <li onclick="change0()" class="list-product listp1"><a class="link-product linkp1" href="#"><span class="text-products textp1">پرواز داخلی</span></a></li>
+                                    <i id="i1" onclick="change0()" class="fa-solid icon-products icon-p1 fa-plane"></i>
+                                </div>
+                                <div class="pro-icon pi2">
+                                    <li onclick="change1()" class="list-product listp2"><a class="link-product linkp2" href="#"><span class="text-products textp2">پرواز خارجی</span></a></li>
+                                    <i id="i2" onclick="change1()" class="fa-solid icon-products icon-p2 fa-plane-circle-check"></i>
+                                </div>
+                                <div class="pro-icon pi3">
+                                    <li onclick="change2()" class="list-product listp3"><a class="link-product linkp3" href="#"><span class="text-products textp3"></i>قطار</span></a></li>
+                                    <i id="i3" onclick="change2()" class="fa-solid icon-products icon-p3 fa-train-subway"></i>
+                                </div>
+                                <div class="pro-icon pi4">
+                                    <li onclick="change3()" class="list-product listp4"><a class="link-product linkp4" href="#"><span class="text-products textp4">اتوبوس</span></a></li>
+                                    <i id="i4" onclick="change3()" class="fa-solid icon-products icon-p4 fa-bus"></i>
+                                </div>
+                                <div class="pro-icon pi5">
+                                    <li onclick="change4()" class="list-product listp5"><a class="link-product linkp5" href="#"><span class="text-products textp5">تور</span></a></li>
+                                    <i id="i5" onclick="change4()" class="fa-solid icon-products icon-p5 fa-suitcase"></i>
+                                </div>
+                                <div class="pro-icon pi6">
+                                    <li onclick="change5()" class="list-product listp6"><a class="link-product linkp6" href="#"><span class="text-products textp6">هتل</span></a></li>
+                                    <i id="i6" onclick="change5()" class="fa-solid icon-products icon-p6 fa-hotel"></i>
+                                </div>
+                                <div class="pro-icon pi7">
+                                    <li onclick="change6()" class="list-product listp7"><a class="link-product linkp7" href="#"><span class="text-products textp7">ویلا و اقامتگاه</span></a></li>
+                                    <i id="i7" onclick="change6()" class="fa-solid icon-products icon-p7 fa-house"></i>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="form-detail">
+                        <div class="form-contain">
+                            <form class="form-input">
+                                <div class="select-road">
+                                   <button type="button" class="enter-road">یک طرفه<i class="fa-solid opt-gr fa-caret-down"></i>
+                                        <div class="options">
+                                            <ul class="opt-list">
+                                                <li class="opt-name opt1">یک طرفه</li>
+                                                <li class="opt-name opt2">دو طرفه</li>
+                                            </ul>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div class="contain-select">
+                                    <div class="select-city">
+                                        <div class="enter-detail city1">
+                                                <input type="text" class="city enter" placeholder="شهر(مبدا)">
+                                            <ul class="city-list">
+                                                <div class="city-enter-list city-l1">
+                                                    <p class="head-list">پرتردد</p>
+                                                    <li class="city-name-list"><i class="fa-solid fa-location-dot"></i><a href="#" class="text-name">تهران</a></li>
+                                                    <li class="city-name-list"><i class="fa-solid fa-location-dot"></i><a href="#" class="text-name">مشهد</a></li>
+                                                    <li class="city-name-list"><i class="fa-solid fa-location-dot"></i><a href="#" class="text-name">اصفهان</a></li>
+                                                    <li class="city-name-list"><i class="fa-solid fa-location-dot"></i><a href="#" class="text-name">کیش</a></li>
+                                                    <li class="city-name-list"><i class="fa-solid fa-location-dot"></i><a href="#" class="text-name">قشم</a></li>
+                                                    <li class="city-name-list"><i class="fa-solid fa-location-dot"></i><a href="#" class="text-name">شیراز</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                        <div class="enter-detail city2">
+                                                <input type="text" class="city exit" placeholder="شهر(مقصد)">
+                                            <ul class="city-list">
+                                                <div class="city-enter-list city-l2">
+                                                    <p class="head-list">پرتردد</p>
+                                                    <li class="city-name-list"><i class="fa-solid city-icon fa-location-dot"></i><a href="#" class="text-name">تهران</a></li>
+                                                    <li class="city-name-list"><i class="fa-solid city-icon fa-location-dot"></i><a href="#" class="text-name">مشهد</a></li>
+                                                    <li class="city-name-list"><i class="fa-solid city-icon fa-location-dot"></i><a href="#" class="text-name">اصفهان</a></li>
+                                                    <li class="city-name-list"><i class="fa-solid city-icon fa-location-dot"></i><a href="#" class="text-name">کیش</a></li>
+                                                    <li class="city-name-list"><i class="fa-solid city-icon fa-location-dot"></i><a href="#" class="text-name">قشم</a></li>
+                                                    <li class="city-name-list"><i class="fa-solid city-icon fa-location-dot"></i><a href="#" class="text-name">شیراز</a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                        <div class="enter-date">
+                                            <input placeholder="تاریخ رفت" type="datetime" class="date-detail date1">
+                                        </div>
+                                        <div class="enter-date2">
+                                            <input placeholder="تاریخ برگشت" type="datetime" class="date-detail date2">
+                                        </div>
+                                        <div class="passengers">
+                                            <input class="passengers-inp" type="text" value="تعداد مسافران" readonly>
+                                            <div class="passengers-detail">
+                                                <input max="9" min="1" step="1" type="number" class="passengers-count over12">
+                                                <div class="text-count text-c1"><p>بزرگسال<span class="text-count-front">12سال به بالا</span></p></div>
+                                                <input max="9" min="1" step="1" type="number" class="passengers-count over2-12">
+                                                <div class="text-count text-c2"><p>بزرگسال<span class="text-count-front">12سال به بالا</span></p></div>
+                                                <input max="9" min="1" step="1" type="number" class="passengers-count tend-2y">
+                                                <div class="text-count text-c3"><p>بزرگسال<span class="text-count-front">12سال به بالا</span></p></div>
+                                            </div>
+                                        </div>
+                                        <div class="btn-form">
+                                            <button class="submit-btn-form" type="button">جستجو</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="property">
+                    <h3 class="property-text">سایر خدمات علی‌بابا</h3>
+                    <div class="main-card">
+                        <div class="contain-card card-right">
+                            <div class="card-pic right">
+                                
+                            </div>
+                            <span class="text-card right-t">بیمه مسافرتی</span>
+                            <span class="new-text">جدید</span>
+                            <i class="fa-solid icon-card fa-chevron-left"></i>
+                        </div>
+                        <div class="contain-card card-center">
+                            <div class="card-pic center">
+                                
+                            </div>
+                            <span class="text-card center-t">ویزای سفر</span>
+                            <i class="fa-solid icon-card fa-chevron-left"></i>
+                        </div>
+                        <div class="contain-card card-left">
+                            <div class="card-pic left">
+                                
+                            </div>
+                            <span class="text-card left-t">تور گروهی</span>
+                            <i class="fa-solid icon-card fa-chevron-left"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper">
+                    <div class="swip swip-left">
+
+                    </div>
+                    <div class="swip swip-right">
+                        
+                    </div>
+                </div>
+                <div class="alibaba-app">
+                    <div class="contain-app">
+                        <div class="left-qrcod">
+
+                        </div>
+                        <div class="center-text">
+                            <h2 class="alibaba-app-text">اپلیکیشن علی بابا</h2>
+                            <span class="text-app2">سریع تر و مطمئن تر به سفر بروید</span>
+                            <span class="see-text"><a class="text-link-app" href="#">مشاهده لینک های دانلود<i class="fa-solid icon-app-text fa-chevron-left"></i></a></span>
+                        </div>
+                        <div class="right-pic-app">
+                            <div class="contain-pic-app">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="discrption-sec">
+                    <div class="ticket-detail">
+                        <h1 class="ticket-head headbar">بلیطه هواپیما</h1>
+                        <p class="ticket-text opper">
+                            علی‌بابا بزرگترین و معتبرترین سایت خرید اینترنتی بلیط هواپیما ، قطار و اتوبوس در کشور است که از سال ۱۳۹۳ کار خود را شروع کرده و در این مدت توانسته رضایت درصد قابل توجهی از کاربران را به دست بیاورد. در ابتدا، فروش بلیط پرواز داخلی در دستور کار علی‌بابا قرار داشت؛ اما به مرور امکان خرید سایر محصولات گردشگری نیز به علی‌بابا اضافه شد.
+                        </p>
+                        <div class="image-ticket">
+
+                        </div>
+                        <h3 class="opportunity headbar">مزایای خرید بلیط هواپیما از علی‌بابا</h3>
+                        <p class="text-opprtunity opper">
+                            شما با خرید بلیط هواپیما از علی‌بابا با سامانه مطمئن و معتبری روبه‌رو هستید که تمام نیازهایتان را پاسخ می‌دهد. برای خرید آنلاین بلیط هواپیما در علی‌بابا کافیست مبدا، مقصد و تاریخ پرواز خود را انتخاب کنید. پس از کلیک روی جستجو، لیست قیمت بلیط هواپیما به مقصد مورد نظر شما ظاهر می‌شود. در این لیست، انتخابهای متعددی پیش روی شماست. برای اینکه گزینه‌ ها را برای خرید بلیط هواپیما محدودتر کنید، علی‌بابا ابزارهای مختلفی در اختیار شما می‌گذارد.
+                        </p>
+
+                        <p class="text-opprtunity1 opper">
+                            یکی از ابزارهای بسیار مفید و کاربردی برای خرید اینترنتی بلیط هواپیما، تقویم قیمتی است. با استفاده از تقویم قیمتی شما می‌توانید کمترین و بیشترین قیمت بلیط پرواز را در روزهای قبل و بعد از آن تاریخ مشاهده کنید. در صورتی که اصرار به خرید بلیط هواپیما در یک روز خاص نداشته باشید، این امکان به شما کمک می‌کند تا مبلغ بلیط هواپیما برایتان با مبلغ به صرفه تری تمام شود.
+                        </p>
+
+                        <p class="text-opprtunity2 opper">
+                            علاوه بر این، با استفاده از فیلترهای کنار صفحه می‌توانید ایرلاین مورد نظرتان را انتخاب کنید. ضمنا می‌توانید، بلیط چارتر هواپیما یا سیستمی را فعال کنید تا فقط یکی از این دو نوع بلیط را مشاهده کنید. بلیط هواپیما خارجی ،کلاس پروازی و زمان پرواز هم از دیگر گزینه‌هایی است که با انتخاب آنها، تعداد بلیط ها محدودتر و رزرو بلیط هواپیما برای شما آسانتر می‌شود.
+                        </p>
+
+                        <p class="text-opprtunity3 opper">
+                            علاوه بر این، با استفاده از فیلترهای کنار صفحه می‌توانید ایرلاین مورد نظرتان را انتخاب کنید. ضمنا می‌توانید، بلیط چارتر هواپیما یا سیستمی را فعال کنید تا فقط یکی از این دو نوع بلیط را مشاهده کنید. بلیط هواپیما خارجی ،کلاس پروازی و زمان پرواز هم از دیگر گزینه‌هایی است که با انتخاب آنها، تعداد بلیط ها محدودتر و رزرو بلیط هواپیما برای شما آسانتر می‌شود.
+                        </p>
+
+                        <h3 class="esterdad headbar">امکان استرداد بلیط هواپیما</h3>
+                        <p class="esterdad-text opper">
+                            یکی دیگر از امکانات علی‌بابا استرداد آنلاین بلیط هواپیما (کنسلی بلیط) است. در صورتی که پس از رزرو بلیط هواپیما برنامه سفرتان تغییر کرده، به راحتی می‌توانید طبق قوانین کنسلی پرواز داخلی، بلیط هواپیمای خود را کنسل کنید. پس از استرداد، پول شما در کمترین زمان ممکن به حسابتان برگردانده می‌شود. شما برای خرید اینترنتی بلیط هواپیما از علی‌بابا می‌توانید از تلفن همراه، رایانه شخصی یا تبلت استفاده کنید. علی‌بابا در همه این ابزارها کاربرپسند است و شما خریدی آسان را تجربه خواهید کرد. همچنین امکان نصب و استفاده از اپلیکیشن علی‌بابا برای گوشی های اندروید و آیفون وجود دارد.
+                        </p>
+
+                        <h3 class="alibaba-def headbar">علی‌بابا: رتبه یک خرید اینترنتی بلیط سفر</h3>
+                        <p class="alibaba-def-text opper">
+                            علی‌بابا طی این سالها، اعتبار زیادی نزد مشتریان خود کسب کرده است. طبق نظرسنجی، 97.2 درصد از مشتریان علی‌بابا از خدمات این سامانه راضی بوده‌اند و استفاده از آن را به دوستان و آشنایان خود پیشنهاد داده‌اند. سرعت سادگی خرید اینترنتی بلیط هواپیما، اعتبار و خوشنامی، امکان استرداد آنلاین بلیط هواپیما و پشتیبانی 24 ساعته در تمام روزهای هفته، رتبه یک فروش بلیط را از آنِ علی‌بابا کرده است.
+                        </p>
+
+                        <p class="final-text opper">شما با رزرو بلیط هواپیما در علی‌بابا، از سفری راحت و بی‌دردسر مطمئن خواهید بود.</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <!-- finish main -->
+        <!-- footer -->
+         <footer class="foot-bar">
+            <div class="foot1">
+                <div class="foot1-left foot1-3">
+                    <div class="foot-image-left foot-image">
+
+                    </div>
+                    <h3 class="foot1-head foot-head-left">رتبه یک سفر</h3>
+                    <p class="foot-text">معتبرترین عرضه‌کننده محصولات گردشگری در ایران</p>
+                </div>
+
+                <div class="foot1-center foot1-3">
+                    <div class="foot-image-center foot-image">
+
+                    </div>
+                    <h3 class="foot1-head foot-head-center">همسفر هر سفر</h3>
+                    <p class="foot-text">ارائه تمامی خدمات سفر (پرواز، قطار، اتوبوس، هتل و تور)</p>
+                </div>
+                    
+                <div class="foot1-right foot1-3">
+                    <div class="foot-image-right foot-image">
+
+                    </div>
+                    <h3 class="foot1-head foot-head-right">همسفر همه لحظات سفر</h3>
+                    <p class="foot-text">پشتیبانی و همراهی ۲۴ ساعته در تمامی مراحل سفر</p>
+                </div>
+            </div>
+            <div class="footer-foot">
+                <div class="foot-pic">
+
+                </div>
+                <p class="tel">تلفن پشتیبانی: ۰۲۱ - ۴۳۹۰۰۰۰۰</p>
+                <address class="address-alibaba">دفتر پشتیبانی: اکباتان، نبش اتوبان لشگری، کوی بیمه، خیابان بیمه چهارم، بن‌بست گل‌ها، پلاک 1</address>
+                <div class="standard-pic1 standard"></div>
+                <div class="standard-pic2 standard"></div>
+                <div class="standard-pic3 standard"></div>
+                <div class="standard-pic4 standard"></div>
+                <div class="standard-pic5 standard"></div>
+                <div class="standard-pic6 standard"></div>
+                <h4 class="list-foot-haed head-foot-left">علی بابا</h4>
+                <ul class="list-left-foot">
+                    <li class="option-left-foot option-foot"><a href="3" class="link-left-foot link-foot">درباره ما</a></li>
+                    <li class="option-left-foot option-foot"><a href="3" class="link-left-foot link-foot">تماس با ما</a></li>
+                    <li class="option-left-foot option-foot"><a href="3" class="link-left-foot link-foot">چرا علی‌بابا</a></li>
+                    <li class="option-left-foot option-foot"><a href="3" class="link-left-foot link-foot">علی‌بابا پلاس</a></li>
+                    <li class="option-left-foot option-foot"><a href="3" class="link-left-foot link-foot">بیمه مسافرتی</a></li>
+                    <li class="option-left-foot option-foot"><a href="3" class="link-left-foot link-foot">مجله علی‌بابا</a></li>
+                </ul>
+
+                <h4 class="list-foot-haed head-foot-center">خدمات مشتریان</h4>
+                <ul class="list-center-foot">
+                    <li class="option-center-foot option-foot"><a href="3" class="link-center-foot link-foot">مرکز پشتیبانی آنلاین</a></li>
+                    <li class="option-center-foot option-foot"><a href="3" class="link-center-foot link-foot">راهنمای خرید</a></li>
+                    <li class="option-center-foot option-foot"><a href="3" class="link-center-foot link-foot">راهنمای استرداد</a></li>
+                    <li class="option-center-foot option-foot"><a href="3" class="link-center-foot link-foot">قوانین و مقررات</a></li>
+                    <li class="option-center-foot option-foot"><a href="3" class="link-center-foot link-foot">پرسش و پاسخ</a></li>
+                </ul>
+
+                <h4 class="list-foot-haed head-foot-right">اطلاعات تکمیلی</h4>
+                <ul class="list-right-foot">
+                    <li class="option-right-foot option-foot"><a href="3" class="link-right-foot link-foot">فروش سازمانی</a></li>
+                    <li class="option-right-foot option-foot"><a href="3" class="link-right-foot link-foot">همکاری با آژانس‌ها</a></li>
+                    <li class="option-right-foot option-foot"><a href="3" class="link-right-foot link-foot">فرصت‌های شغلی</a></li>
+                    <li class="option-right-foot option-foot"><a href="3" class="link-right-foot link-foot">سنجش رضایتمندی</a></li>
+                </ul>
+            </div>
+            <div class="finish-bar">
+                <a class="brand-link1 brand" href="#"><i class="fa-brands fa-telegram"></i></a>
+                <a class="brand-link2 brand" href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a class="brand-link3 brand" href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a class="brand-link4 brand" href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a class="brand-link5 brand" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <p class="finish-text">کلیه حقوق این سرویس (وب‌سایت و اپلیکیشن‌های موبایل) محفوظ و متعلق به شرکت سفرهای علی‌بابا می‌باشد. (نسخه 2.73.1)</p>
+            </div>
+        </footer> 
+    </div>   
+</body>
+</html>
